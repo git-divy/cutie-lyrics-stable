@@ -1,0 +1,18 @@
+# Core Cutie Lyrics CLI dependencies
+beautifulsoup4
+fonttools
+google-genai
+manim
+pydantic
+pydub
+python-dotenv
+requests
+spotapi
+spotdl
+yt-dlp
+
+# Dependencies used by the experimental tools in beta/
+# librosa
+# matplotlib
+# numpy
+# whisperx

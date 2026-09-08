@@ -1,3 +1,4 @@
 __pycache__
 .env
 projects
+*.egg-info/

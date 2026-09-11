@@ -93,18 +93,34 @@ The [`examples/`](examples/) directory contains completed 4K renders made with C
 
 ### Thumbnail examples
 
-<img src="examples/thumbnail/thumbnail_playlist%20%281%29.webp" alt="Playlist thumbnail 1" width="25%">
-<img src="examples/thumbnail/thumbnail_playlist%20%282%29.webp" alt="Playlist thumbnail 2" width="25%">
+#### Standard
 
-<img src="examples/thumbnail/thumbnail_standard%20%281%29.webp" alt="Standard thumbnail 1" width="25%">
-<img src="examples/thumbnail/thumbnail_standard%20%282%29.webp" alt="Standard thumbnail 2" width="25%">
-<img src="examples/thumbnail/thumbnail_standard%20%283%29.webp" alt="Standard thumbnail 3" width="25%">
-<img src="examples/thumbnail/thumbnail_standard%20%284%29.webp" alt="Standard thumbnail 4" width="25%">
+<img src="examples/thumbnail/thumbnail_standard%20%281%29.webp" alt="Standard thumbnail 1" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%282%29.webp" alt="Standard thumbnail 2" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%283%29.webp" alt="Standard thumbnail 3" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%284%29.webp" alt="Standard thumbnail 4" width="50%">
+
+#### Playlist
+<img src="examples/thumbnail/thumbnail_playlist%20%281%29.webp" alt="Playlist thumbnail 1" width="50%"><img src="examples/thumbnail/thumbnail_playlist%20%282%29.webp" alt="Playlist thumbnail 2" width="50%">
 
 ### Video examples
 
-- Playlist: [video 1](examples/videos/video_playlist%20%281%29.mp4), [video 2](examples/videos/video_playlist%20%282%29.mp4)
-- Standard: [video 1](examples/videos/video_standard%20%281%29.mp4), [video 2](examples/videos/video_standard%20%282%29.mp4), [video 3](examples/videos/video_standard%20%283%29.mp4), [video 4](examples/videos/video_standard%20%284%29.mp4)
+#### Standard
+
+<video src="examples/videos/video_standard%20%281%29.mp4" controls width="50%" style="max-width: 700px;">
+  Your browser does not support the video tag.
+</video><video src="examples/videos/video_standard%20%282%29.mp4" controls width="50%" style="max-width: 700px;">
+  Your browser does not support the video tag.
+</video><video src="examples/videos/video_standard%20%283%29.mp4" controls width="50%" style="max-width: 700px;">
+  Your browser does not support the video tag.
+</video><video src="examples/videos/video_standard%20%284%29.mp4" controls width="50%" style="max-width: 700px;">
+  Your browser does not support the video tag.
+</video>
+
+#### Playlist
+
+<video src="examples/videos/video_playlist%20%281%29.mp4" controls width="50%" style="max-width: 700px;">
+  Your browser does not support the video tag.
+</video><video src="examples/videos/video_playlist%20%282%29.mp4" controls width="50%" style="max-width: 700px;">
+  Your browser does not support the video tag.
+</video>
 
 ## Output layout
 

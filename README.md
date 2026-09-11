@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="examples/logo.png" alt="Project Logo" width="200">
+  <img src="examples/logo.webp" alt="Project Logo" width="200">
 </p>
 
 # Cutie Lyrics

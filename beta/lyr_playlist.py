@@ -1,3 +1,5 @@
+# for playlist and albums
+
 from manim import *
 from timestamp_parser import parse_lrc
 import os

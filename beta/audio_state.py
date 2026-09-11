@@ -1,8 +1,9 @@
+# This is used for extracting audio features which can be further used to improve the animationa
+
 import librosa
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy as np
-
 
 def extract_audio_features(path: str, fps: int = 60, n_mels: int = 64, smooth: int = 5):
     """

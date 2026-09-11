@@ -1,3 +1,5 @@
+# Uses spotify api to produce playlist metadata
+
 import requests
 import base64
 import os

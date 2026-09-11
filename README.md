@@ -1,29 +1,64 @@
 # Cutie Lyrics
 
-Create lyric-video assets from a Spotify track URL.
-
-Cutie Lyrics downloads or reuses audio and synchronized lyrics, then renders an animated lyric video, a thumbnail, and a text description with [Manim](https://www.manim.community/). Each run is isolated in a project directory named after the Spotify track ID.
-
-> This is a source-based CLI. Run it from the project root so that the Manim scene files and bundled fonts are available.
+Cutie Lyrics is a CLI tool for creating high-quality lyric Videos and Thumbnails with beautiful animations and smooth transitions `Spotify Track URL`.
 
 ## What it creates
 
 For a Spotify track URL, Cutie Lyrics can create:
 
-- A WAV audio download via `spotdl`
-- Synced LRC lyrics from `spotdl` and a Spotify lyrics service
-- An animated lyric video
-- A PNG thumbnail with the track title and artists
-- A `description.txt` file containing the title, artists, and lyrics
+- 🎬 High-quality lyric videos with smooth animations and transitions
+- 🖼️ High-quality thumbnails with custom fonts and advanced typography
+- 📝 Video descriptions containing the track title, artist, and lyrics
+- 🌐 Lyric transliteration into a desired language
+- 🎨 Extensive customization for fonts, lyric styling, animations, backgrounds, and opacity
+- ✂️ Partial renders for rendering specific sections of a song
+- 💿 Full album and playlist renders (Beta)
+- 🎯 Word-level lyric synchronization using force aligners (Beta)
 
-It also supports custom backgrounds, custom fonts, lyric styling, partial renders, and optional Gemini-powered transliteration.
+It also supports custom backgrounds, custom fonts, lyric styling, partial renders, and optional ai-powered transliteration.
+
+## Examples
+
+The [`examples/`](examples/) directory contains renders made with Cutie Lyrics.
+
+You can also visit my [Youtube Channel](https://www.example.com) to view all videos in 4K.
+
+
+
+### Video examples
+
+#### Standard
+
+https://github.com/user-attachments/assets/5ddef4f2-86bf-4f55-9629-cd4af4db19d6
+
+https://github.com/user-attachments/assets/55f66695-59d9-4c5d-b54c-fd7a254822de
+
+https://github.com/user-attachments/assets/8beb9fdc-f3ce-45e0-b259-7b7a2ddff90e
+
+https://github.com/user-attachments/assets/34c0c3c4-4390-4977-a482-4eeccf1f9a09
+
+
+#### Playlist
+
+https://github.com/user-attachments/assets/7dddc25a-7a12-41f3-adcd-3898f95adcf1
+
+https://github.com/user-attachments/assets/65b140af-3310-4e21-88a7-3bfd401b649e
+
+
+### Thumbnail examples
+
+#### Standard
+
+<img src="examples/thumbnail/thumbnail_standard%20%281%29.webp" alt="Standard thumbnail 1" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%282%29.webp" alt="Standard thumbnail 2" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%283%29.webp" alt="Standard thumbnail 3" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%284%29.webp" alt="Standard thumbnail 4" width="50%">
+
+#### Playlist
+<img src="examples/thumbnail/thumbnail_playlist%20%281%29.webp" alt="Playlist thumbnail 1" width="50%"><img src="examples/thumbnail/thumbnail_playlist%20%282%29.webp" alt="Playlist thumbnail 2" width="50%">
+
 
 ## Requirements
 
 - Python 3.10 or newer
-- [FFmpeg](https://ffmpeg.org/) available on your `PATH`
-- A Spotify **track** URL
-- Internet access for Spotify metadata, lyrics, and downloads
+- [FFmpeg](https://ffmpeg.org/) available on your `PATH` (Optional)
 
 FFmpeg is required by Manim and Pydub. If Manim does not install correctly, follow the [official Manim installation instructions](https://docs.manim.community/en/stable/installation.html) for your operating system.
 
@@ -86,38 +121,6 @@ python cutie.py "https://open.spotify.com/track/TRACK_ID"
 ```
 
 By default, Cutie Lyrics renders at Manim high quality and writes everything to `projects/<track-id>/`.
-
-## Examples
-
-The [`examples/`](examples/) directory contains completed 4K renders made with Cutie Lyrics.
-
-### Thumbnail examples
-
-#### Standard
-
-<img src="examples/thumbnail/thumbnail_standard%20%281%29.webp" alt="Standard thumbnail 1" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%282%29.webp" alt="Standard thumbnail 2" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%283%29.webp" alt="Standard thumbnail 3" width="50%"><img src="examples/thumbnail/thumbnail_standard%20%284%29.webp" alt="Standard thumbnail 4" width="50%">
-
-#### Playlist
-<img src="examples/thumbnail/thumbnail_playlist%20%281%29.webp" alt="Playlist thumbnail 1" width="50%"><img src="examples/thumbnail/thumbnail_playlist%20%282%29.webp" alt="Playlist thumbnail 2" width="50%">
-
-### Video examples
-
-#### Standard
-
-https://github.com/user-attachments/assets/5ddef4f2-86bf-4f55-9629-cd4af4db19d6
-
-https://github.com/user-attachments/assets/55f66695-59d9-4c5d-b54c-fd7a254822de
-
-https://github.com/user-attachments/assets/8beb9fdc-f3ce-45e0-b259-7b7a2ddff90e
-
-https://github.com/user-attachments/assets/34c0c3c4-4390-4977-a482-4eeccf1f9a09
-
-
-#### Playlist
-
-https://github.com/user-attachments/assets/7dddc25a-7a12-41f3-adcd-3898f95adcf1
-
-https://github.com/user-attachments/assets/65b140af-3310-4e21-88a7-3bfd401b649e
 
 
 ## Output layout

@@ -1,3 +1,5 @@
+# for playlist and albums
+
 from manim import *
 from lyr_dev import apply_bg
 import fetch_metadata

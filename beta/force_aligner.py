@@ -1,3 +1,5 @@
+# Force aligner code for word level sync video
+
 from utils import get_segments
 from timestamp_parser import parse_lrc
 import whisperx

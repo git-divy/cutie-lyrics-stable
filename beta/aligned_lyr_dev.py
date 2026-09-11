@@ -1,3 +1,5 @@
+# Force aligner code for word level sync video and uses different lyrics animation than ususal
+
 from manim import *
 from fontTools.ttLib import TTFont
 config.disable_caching = True

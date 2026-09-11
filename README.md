@@ -105,14 +105,20 @@ The [`examples/`](examples/) directory contains completed 4K renders made with C
 #### Standard
 
 https://github.com/user-attachments/assets/5ddef4f2-86bf-4f55-9629-cd4af4db19d6
+
 https://github.com/user-attachments/assets/55f66695-59d9-4c5d-b54c-fd7a254822de
+
 https://github.com/user-attachments/assets/8beb9fdc-f3ce-45e0-b259-7b7a2ddff90e
+
 https://github.com/user-attachments/assets/34c0c3c4-4390-4977-a482-4eeccf1f9a09
+
 
 #### Playlist
 
 https://github.com/user-attachments/assets/7dddc25a-7a12-41f3-adcd-3898f95adcf1
+
 https://github.com/user-attachments/assets/65b140af-3310-4e21-88a7-3bfd401b649e
+
 
 ## Output layout
 

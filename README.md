@@ -1,5 +1,8 @@
-# Cutie Lyrics
+<p align="center">
+  <img src="examples/logo.png" alt="Project Logo" width="200">
+</p>
 
+# Cutie Lyrics
 Cutie Lyrics is a CLI tool for creating high-quality lyric Videos and Thumbnails with beautiful animations and smooth transitions `Spotify Track URL`.
 
 ## What it creates

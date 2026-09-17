@@ -108,6 +108,13 @@ You can also run the source file directly:
 python cutie.py --help
 ```
 
+Note: Run this command on macOS if you face any cairo related errors.
+
+```bash
+# macOS
+brew install cairo pkg-config cmake
+```
+
 ## Quick start
 
 Run the command from the project root with a Spotify track URL:

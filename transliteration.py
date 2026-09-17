@@ -14,7 +14,7 @@ class GeminiAPI:
     def transliterate(self, texts: list, language: str) -> list:
         interaction = self.client.interactions.create(
             model="gemini-3.5-flash",
-            input=f"Transliterate these to {language} : [{", ".join(texts)}]",
+            input=f"Transliterate these to {language} : [{', '.join(texts)}]",
             response_format={
                 "type": "text",
                 "mime_type": "application/json",

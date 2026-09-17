@@ -22,7 +22,6 @@ It also supports custom backgrounds, custom fonts, lyric styling, partial render
 
 ## Examples
 
-The [`examples/`](examples/) directory contains renders made with Cutie Lyrics.
 
 You can also visit my [Youtube Channel](https://youtube.com/@divy_yt) to view all videos in 4K.
 
